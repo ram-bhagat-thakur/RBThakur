@@ -19,6 +19,13 @@
         margin-right: 10px;
     }
 
+    header img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
     .ct-me {
         margin-top: 10px;
         margin-bottom: 10px;
