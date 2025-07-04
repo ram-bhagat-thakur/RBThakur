@@ -1,0 +1,140 @@
+.project{
+    color: #FAAD1B !important;
+}
+.home{
+    color: #F5F7FA !important;
+}
+.project-head{
+    display: flex;
+    flex-direction: row;
+}
+.after{
+    height: 2px;
+    width: 180px;
+    background-color: #FAAD1B;
+    text-align: center;
+    margin-top: -5px;
+}
+.left-project-head,
+.right-project-head{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.left-project-head img{
+    margin-top: 30px;
+    width: 80%;
+    height: 100%;
+}
+.right-project-head h2,
+.project-body h2{
+    margin-bottom: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #344C36;
+}
+.Explore{
+    color: #344C36;
+    font-weight: 400;
+}
+.right-project-head{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.project-body{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.project-box{
+    width: 30%;
+    height: fit-content;
+    background-color: #DBE9FF;
+    border-radius: 20px;
+    max-width: 400px;
+}
+.project-box h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.project-box img{
+    width: 80%;
+    height: 90%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.card-description{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+.go{
+    color: #FAAD1B;
+    font-size: 24px;
+    margin-left: 5px;
+}
+.view-details{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: #344C36;
+}
+.view-details:hover{
+    font-size: 24px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.box-padding{
+    padding: 30px;
+}
+.all-project{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-top: 30px;
+    justify-content: center;
+}
+.project-box{
+    margin-top: 2%;
+}
+.button a{
+    text-decoration: none;
+    color: #DBE9FF;
+}
+.project-button{
+    justify-self: center;
+    margin-bottom: 50px;
+}
+hr{
+    height: 1px;
+    background-color: #FAAD1B;
+}
+@media(max-width: 830px){
+    .project-box{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .project-head{
+        flex-direction: column;
+    }
+    .left-project-head,
+    .right-project-head{
+        width: 100%;
+    }
+    .left-project-head{
+        align-items: center;
+    }
+}
+a{
+    text-decoration: none;
+}

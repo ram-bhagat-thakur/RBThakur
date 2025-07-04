@@ -1,0 +1,334 @@
+.experience-nav{
+    color: #FAAD1B !important;
+}
+.home{
+    color: #F5F7FA !important;
+}
+.experience {
+    text-align: center;
+}.heade-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.after{
+    height: 4px;
+    width: 100px;
+    background-color: #FAAD1B;
+    text-align: center;
+}
+
+.experience-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.experience-header hr{
+    display: none;
+}
+.experience-header img {
+    margin-top: 30px;
+    width: 80%;
+    height: 100%;
+}
+
+.heade-right,
+.header-left {
+    width: 50%;
+}
+
+.heade-right h3 span {
+    font-style: italic;
+    color: #FAAD1B;
+}
+
+.heade-right h2,
+.cName h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #344C36;
+    margin-bottom: 10px;
+}
+
+.heade-right h3,
+.heade-right h3 span {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.heade-right span {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.tools-margin {
+    width: 120px;
+    height: 120px;
+    background-color: #DBE9FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.college-details {
+    width: 100%;
+}
+
+.college-card-head {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    background-color: #344C36;
+    justify-self: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.cName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.college-card-body {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    background-color: #DBE9FF;
+    justify-self: center;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #344C36;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.cName .date,
+.college-card-head .location {
+    position: absolute;
+    right: 20%;
+    margin-top: 0px;
+}
+
+.college-card-head .location {
+    margin-top: -3%;
+    font-weight: 300;
+    color: #FAAD1B;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.college-card-head,
+.cName span {
+    color: #DBE9FF;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.college-card-head h3 {
+    justify-self: left;
+    color: #FAAD1B;
+}
+
+.cName h2 {
+    color: #DBE9FF;
+}
+
+/*
+.middle-side{
+    width: 10%;
+}
+*/
+.logo-card {
+    width: 20%;
+    justify-content: center;
+}
+
+.right-side {
+    width: 70%;
+}
+
+.accodino-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.accordino {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.accordino h2,
+.accordino .view-ex,
+button {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.accordino .view-ex{
+    font-size: 24px;
+}
+.accordino span {
+    color: #FAAD1B;
+    font-style: italic;
+}
+
+/* Accordino */
+.accordion {
+    width: 100%;
+}
+
+.accordion-header {
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #344C36;
+}
+.accordion-header span{
+    font-style: normal;
+}
+button {
+    border: none;
+}
+.accordion-content {
+    overflow: hidden;
+    display: none;
+    padding: 10px;
+    transition: max-height 0.3s ease-in-out;
+    
+}
+.accordion-item{
+    border: 2px solid #FAAD1B;
+    border-top: none;
+    border-radius: 40px;
+    margin-top: -5px;
+    margin-top: 50px;
+    width: 80%;
+    justify-self: center;
+}
+.accordion-top {
+    background-color: #344C36;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.accordion-item h2,
+button {
+    color: #DBE9FF;
+    margin: 0px;
+}
+
+.accordion-item .description {
+    font-size: 16px;
+    color: #DBE9FF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    width: 90%;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+/*
+.linking{
+    border-radius: 10px 20px 10px 20px;
+    font-size: 24px;
+    width: 20px;
+    height: 30px;
+    color: #FAAD1B;
+}*/
+
+@media(max-width:830px){
+    .cName .date, .college-card-head .location{
+        right: 10%;
+    }
+    .experience-header {
+    flex-direction: column-reverse;
+    gap: 0px;
+    }
+    .experience-header img{
+        width: 90%;
+    }
+    .heade-right,
+.header-left {
+    width: 90%;
+}
+.heade-right h3{
+    font-size: 16px;
+}
+.heade-right h3 span {
+    font-size: 18px;
+}
+.experience {
+        margin-top: 30px;
+}
+.experience-header img {
+    margin-top: 10px;
+}
+.experience-header hr{
+    margin-top: 50px;
+    display: block;
+}
+.logo-card {
+    width: 100%;
+}
+
+.right-side {
+    width: 90%;
+    margin: 0px auto;
+}
+.accodino-box{
+    flex-direction: column;
+    gap: 20px;
+}
+.college-card-head{
+    width: 100%;
+}
+.college-card-head .location {
+    margin-top: -11%;
+}
+.accordion-item{
+    width: 100%;
+}
+.college-card-body {
+    margin-bottom: 0px;
+}
+    .accodino-box{
+        gap: 0px;
+        margin-top: 50px;
+    }
+    .tools-margin {
+        margin-bottom: 20px;
+    }
+    
+
+}
+@media(max-width:420px){
+    .date{
+        font-size: 14px;
+    }
+    .college-card-body{
+        font-size: 16px;
+    }
+}
+@media(max-width:400px){
+    .date{
+        display: none;
+    }
+    .college-card-head h3{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,207 @@
+.project {
+    color: #FAAD1B !important;
+}
+
+.home {
+    color: #F5F7FA !important;
+}
+
+.after {
+    height: 3px;
+    width: 190px;
+    background-color: #FAAD1B;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.details-header {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #344C36;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.details-left,
+.details-right {
+    width: 50%;
+    align-content: center;
+}
+
+.details-left img {
+    margin-top: 30px;
+    width: 80%;
+    height: 100%;
+}
+
+.details-right h2,
+.details-section h2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+hr {
+    height: 1px;
+    background-color: #FAAD1B;
+}
+
+.details-body {
+    gap: 30px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.details-section h3,
+.technology-used h3 {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.Introduction {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    align-content: center;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.video .video-image {
+    width: 60%;
+    justify-self: center;
+    align-content: center;
+}
+
+.video .Introduction {
+    width: 50%;
+    justify-self: center;
+    align-content: center;
+}
+
+.video-section video {
+    width: 90%;
+    border-radius: 40px;
+    border: 5px solid #FAAD1B;
+}
+
+.Introduction p {
+    width: 90%;
+    justify-self: center;
+    line-height: 25px;
+}
+
+.tools {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools .tools-icon {
+    width: 50%;
+    justify-content: center;
+    align-self: center;
+}
+
+.tools h3 {
+    width: 50%;
+    align-items: center;
+}
+
+.h3 {
+    width: 80%;
+    justify-self: center;
+}
+
+.tools-margin {
+    width: 60%;
+    height: 80%;
+    border: 2px solid #FAAD1B;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    justify-self: center;
+}
+
+.technology-used {
+    margin-top: 50px;
+}
+
+.technology-used h3 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tech-back {
+    width: 80px;
+    height: 80px;
+    background-color: #DBE9FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-back img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.button a {
+    text-decoration: none;
+    color: #DBE9FF;
+}
+
+.button {
+    justify-self: center;
+}
+
+
+@media(max-width: 830px) {
+    .technology-used {
+        margin-top: 30px;
+    }
+
+    .project-details {
+        flex-direction: column-reverse;
+    }
+
+    .details-left,
+    .details-right,
+    .video .Introduction,
+    .video .video-image,
+    .tools .tools-icon,
+    .tools h3 {
+        width: 100%;
+    }
+
+    .video {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .tools {
+        flex-direction: column;
+    }
+}

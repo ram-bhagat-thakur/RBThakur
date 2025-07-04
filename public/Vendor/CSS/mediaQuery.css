@@ -1,0 +1,240 @@
+@media(max-width:830px) {
+    .menu {
+        background-color: #344C36;
+        display: none;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        margin-right: -40px;
+        text-align: right;
+        gap: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .ct-me {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-left,
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-handle {
+        justify-content: center;
+    }
+
+    .handel {
+        justify-content: flex-start;
+        margin-bottom: -5px;
+    }
+
+    .hello {
+        justify-self: center;
+    }
+
+    .button {
+        justify-content: center;
+    }
+
+    .rectangle {
+        padding: 5px;
+        gap: 2%;
+    }
+
+    .overview {
+        align-self: center
+    }
+
+    .carousel :where(.card, .img) {
+        margin-left: 40px;
+    }
+
+    #right {
+        margin-right: 0px;
+    }
+
+    .Project-head {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .portfolio-button {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .portfolio-text {
+        font-size: 24px;
+    }
+
+    .footer-navigation {
+        display: none;
+    }
+
+    .footer-logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-text {
+        font-size: 18px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+
+    }
+
+    .footer-logo p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+
+    }
+}
+
+@media(max-width:360px) {
+    .footer-text {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .View-text,
+    .footer-logo p {
+        font-size: 14px;
+    }
+
+    .rectangle span {
+        font-size: 10px;
+    }
+
+    .cName span {
+        display: none;
+    }
+
+    /* project */
+
+    .right-project-head h2,
+    .project-body h2 {
+        font-size: 18px;
+    }
+    .right-project-head .Explore{
+        font-size: 14px;
+    }
+    .right-project-head .after{
+        width: 120px;
+    }
+    .card-description{
+        font-weight: 200px;
+    }
+    /* project-details */
+    .details-right h2,
+    .details-section h2{
+        font-size: 18px;
+    }
+    .details-section h3{
+        font-size: 12px;
+    }
+    .technology-used .h3{
+        font-size: 14px;
+        font-weight: 400;
+        width: 100%;
+    }
+    .details-body,
+    .video .Introduction{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    /* Experience */
+
+    .heade-right h2{
+        font-size: 18px;
+    }
+    .heade-right .after{
+        width: 100px;
+    }
+    .heade-right h3{
+        font-size: 14px;
+    }
+    .accordino .view-ex{
+        font-size: 18px;
+    }
+    .accordion-item h2{
+        font-size: 18px;
+    }
+    .accordion-top .description{
+        font-size: 14px;
+    }
+    .college-card-head .location,
+    .college-card-body{
+        font-size: 16px;
+    }
+
+    /* Education */
+    .ed-right-head h2,
+    .ed-body h2,
+    .college-card h2{
+        font-size: 18px;
+    }
+    .ed-right-head .after{
+        width: 90px;
+    }
+
+    /* Home */
+    .Skills p{
+        font-size: 18px;
+    }
+    .head-body{
+        font-size: 14px;
+    }
+    .primary-button,
+    .secondry-button,
+    .details{
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .who{
+        font-size: 18px;
+    }
+    .completed-project, .company{
+        font-size: 14px;
+    }
+    .Highlights,
+    .award-text{
+        font-size: 16px;
+    }
+    .portfolio-text,
+    .Achievemet-text{
+            font-size: 18px;
+        }
+}

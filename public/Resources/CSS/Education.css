@@ -1,0 +1,301 @@
+.edu{
+    color: #FAAD1B !important;
+}
+.home{
+    color: #F5F7FA !important;
+}
+hr {
+    height: 1px;
+    background-color: #FAAD1B;
+}
+.after{
+    height: 2px;
+    width: 120px;
+    background-color: #FAAD1B;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: -15px;
+}
+.ed-header {
+    text-align: center;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.ed-right-head,
+.ed-left-head {
+    width: 50%;
+    align-self: center;
+}
+
+.ed-left-head img {
+    margin-top: 30px;
+    width: 80%;
+    height: 100%;
+}
+
+.handles {
+    justify-content: center;
+}
+
+.ed-right-head h2,
+.ed-body h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #344C36;
+}
+
+.Certification h2 {
+    margin-bottom: 50px;
+}
+
+.cName h2 {
+    color: #DBE9FF;
+}
+
+.ed-right-head h3 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.degree {
+    text-align: center;
+}
+
+.ed-body {
+    margin: 50px 0px;
+}
+
+.tools-margin {
+    width: 120px;
+    height: 120px;
+    background-color: #DBE9FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.tools-margin img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.college-card-head {
+    width: 80%;
+    height: fit-content;
+    padding: 20px;
+    background-color: #344C36;
+    justify-self: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.college-card-head h2 {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.cName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.cName span {
+    position: absolute;
+    right: 10%;
+    margin-top: -15px;
+}
+
+.college-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.college-logo .college-card {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.college-logo .logo-card {
+    width: 30%;
+    justify-content: center;
+    align-content: center;
+}
+
+.tools-margin:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.5s;
+}
+
+.college-details {
+    width: 100%;
+
+}
+
+.college-card-head h3,
+.cName span {
+    color: #DBE9FF;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.college-card-body {
+    width: 80%;
+    height: fit-content;
+    padding: 20px;
+    background-color: #DBE9FF;
+    justify-self: center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.college-card-body ul {
+    margin: 0px -20px;
+}
+
+.college-card-body ul li {
+    padding-right: 15px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #344C36;
+}
+
+.Certification {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.all-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Certification-card {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 275px;
+    min-width: 200px;
+
+}
+
+.card-background {
+    background-color: #DBE9FF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-background img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+.card-head {
+    width: 80%;
+    background-color: #344C36;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-body {
+    background-color: #DBE9FF;
+    border-radius: 0px 0px 20px 20px;
+    width: 80%;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+}
+
+.card-body h2 {
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #344C36;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-body h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #344C36;
+    margin: 0px;
+    font-weight: 400;
+}
+
+@media(max-width:830px) {
+    .college-logo {
+        flex-direction: column;
+        border-radius: 40px;
+        padding: 10px;
+    }
+
+    .college-logo .college-card {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .college-logo .logo-card {
+        width: 78%;
+        border: 2px solid #344C36;
+        padding: 20px;
+        align-self: center;
+        margin-bottom: -15px;
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    .cName span {
+        right: 15%;
+    }
+
+    .head-content {
+        flex-direction: column;
+    }
+
+    .ed-right-head,
+    .ed-left-head {
+        width: 100%;
+    }
+
+    .ed-left-head {
+        width: 95%;
+    }
+
+    .Certification-card {
+        width: 100%;
+        max-width: none;
+        min-width: none;
+
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= pageTitle %>
+    </title>
+    <% if (cssFiles) { %>
+        <% cssFiles.forEach(file=> { %>
+            <link rel="stylesheet" href="<%= file %>">
+            <% }); %>
+                <% } %>
+                    <link rel="stylesheet" href="Resources/CSS/style.css"> <!-- Default CSS -->
+                    <link rel="stylesheet" href="Vendor/CSS/mediaQuery.css">
+                    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mrs+Sheppards&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+                        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div id="nav">
+                <a href="/" class="logo"><img src="Resources/CSS/Image/me1.png" alt="Logo"><strong>RBThakur</strong></a>
+            </div>
+            <div class="menuBar">
+                <div class="menu-icon">☰</div>
+                <ul class="menu">
+                    <li class="click"><a href="/" class="home">Home</a></li>
+                    <li class="click"><a href="/Education" class="edu">Education</a></li>
+                    <li class="click"><a href="/Project" class="project">Project</a></li>
+                    <li class="click"><a href="/Experience" class="experience-nav">Experience</a></li>
+                    <li class="click ct-me"><a href="/Contact" class="con-me">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>

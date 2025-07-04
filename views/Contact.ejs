@@ -1,0 +1,126 @@
+<%- include('partials/Header'); -%>
+
+
+
+    <section class="head">
+        <div class="head-left" data-aos="ease-in">
+            <img src="Resources/CSS/Image/Group 248.png" alt="This is me">
+        </div>
+        <div class="head-right">
+            <h2 data-aos="slide-up">Contact Me</h2>
+            <div class="after" data-aos="slide-up"></div>
+            <div class="right-body" data-aos="slide-up">I am available on almost every social media. You can message me,
+                I will reply
+                within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.</div>
+            <div class="social-handle handle" data-aos="slide-up">
+                <a href="https://www.linkedin.com/in/ram-bhagat-thakur/" title="LinkedIn" target="_blank"
+                    rel="noopener noreferrer"><img src="Resources/CSS/Image/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/ram-bhagat-thakur/" title="GitHub" target="_blank"
+                    rel="noopener noreferrer"><img src="Resources/CSS/Image/github.png" alt="github"></a>
+                <a href="https://www.facebook.com/ram.bhagat.thakur11" title="Facebook" target="_blank"
+                    rel="noopener noreferrer"><img src="Resources/CSS/Image/facebook.png" alt="facebook"></a>
+                <a href="https://x.com/Ram_Bhagat_Thkr" title="Twitter" target="_blank" rel="noopener noreferrer"><img
+                        src="Resources/CSS/Image/twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com/ram.bhagat.thakur" title="Instagram" target="_blank"
+                    rel="noopener noreferrer"><img src="Resources/CSS/Image/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="button">
+                <div class="primary-button">
+                    <div class="View-text">View My Resume</div>
+                    <div class="View-errow">→</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address" data-aos="slide-up" data-aos-duration="4000">
+        <div class="left-address">
+            <h2 data-aos="slide-right" data-aos-duration="4000">Address</h2>
+            <div class="after"></div>
+            <div class="address-line" data-aos="slide-up" data-aos-duration="4000">Sandip University, Madhubani,
+                Bihar-847235</div>
+            <div class="button " data-aos="slide-up" data-aos-duration="4000">
+                <div class="primary-button">
+                    <div class="View-text"><a href="https://maps.app.goo.gl/KDJkEmuiZgnotijG7" target="_blank"
+                            rel="noopener noreferrer">Visit on Google Maps</div>
+                    <div class="View-errow">→</div></a>
+                </div>
+            </div>
+        </div>
+        <div class="right-address" data-aos="slide-left" data-aos-duration="4000">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.92391205232!2d86.28310697381934!3d26.4259318808433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ee810075fa79f7%3A0xfe1ccfa963864263!2sBikramsher!5e0!3m2!1sen!2sin!4v1741188755342!5m2!1sen!2sin"
+                    title="map" class="map"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div id="overlay" data-aos="fade-up" data-aos-duration="4000"></div>
+    <div id="popup" data-aos="fade-up" data-aos-duration="4000">Thank you so much for writting a message for me ☺️!</div>
+
+    <!-- Cotact Form -->
+    <div class="form-body">
+        <h2 class="drop-message" data-aos="slide-up" data-aos-duration="4000"> You can drop a message
+            for me!...
+            <hr width="80%">
+        </h2>
+
+        <div class="contact-form" data-aos="slide-up" data-aos-duration="4000">
+            <div class="contact-image">
+                <img src="Resources/CSS/Image/5147390.jpg" alt="Contact-me" class="image">
+            </div>
+            <div class="form">
+                <div class="label">
+                    <div><label for="name">Full Name<span class="important">*</span></label></div>
+                    <div><label for="email">Email<span class="important">*</span></label></div>
+                    <div><label for="phone-number">Contact Number<span class="important">*</span></label></div>
+                    <div><label for="message">Message<span class="important">*</span></label></div>
+                </div>
+                <div class="colons">
+                    <div><span class="colon">:</span></div>
+                    <div><span class="colon">:</span></div>
+                    <div><span class="colon">:</span></div>
+                    <div><span class="colon">:</span></div>
+                </div>
+                <div class="input">
+                    <div class="n-error"><input type="text" name="FullName" id="name"
+                            placeholder="Enter your full name">
+                        <img src="Resources/CSS/Image/warning.webp" alt="alert" id="icon" class="icon"
+                            data-popup="popup1">
+                        <i class="popup" id="popup1">Please enter your name currectly</i>
+                    </div>
+                    <div class="n-error"><input type="text" name="Email" id="email" placeholder="Example@gmail.com">
+                        <img src="Resources/CSS/Image/warning.webp" alt="alert" id="icon1" class="icon"
+                            data-popup="popup2">
+                        <i class="popup1" id="popup2">Please enter your email</i>
+                    </div>
+                    <div class="n-error"><input type="text" name="ContactNumber" id="phone-number"
+                            placeholder="12345-12345">
+                        <img src="Resources/CSS/Image/warning.webp" alt="alert" id="icon2" class="icon"
+                            data-popup="popup3">
+                        <i class="popup2" id="popup3">Please enter a valid number</i>
+                    </div>
+                    <div class="n-error">
+                        <textarea type="text" name="Message" id="message"
+                            placeholder="Please write your message here..."></textarea>
+                        <img src="Resources/CSS/Image/warning.webp" alt="alert" id="icon3" class="icon"
+                            data-popup="popup4">
+                        <i class="popup3" id="popup4">Write a message for me &#x1F970;</i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <hr width="300px">
+            </div>
+            <div class="submit-button" data-aos="slide-up" data-aos-duration="4000">
+                <button type="submit" id="submit" onclick="showPopup(event)">Send Message</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <%- include('partials/footer'); -%>
