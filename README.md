@@ -72,7 +72,7 @@ Beyond the technical, this journey strengthened my ability to stay committed to 
 ## 🖼 Visual Preview
 Preview image for this project!  
 
-![smhome](https://github.com/user-attachments/assets/7dfbc3d1-63a3-461c-a1d2-bfcb27c21ab0) ![home](https://github.com/user-attachments/assets/c851eef9-8491-4949-9472-f3844359827e) ![contact](https://github.com/user-attachments/assets/d9c192f2-e221-49ed-bc41-5dd1c3b7f1ac) ![card](https://github.com/user-attachments/assets/51e40318-69fe-4f1a-ba48-03dd20ac57e8)
+![smhome](https://github.com/user-attachments/assets/7dfbc3d1-63a3-461c-a1d2-bfcb27c21ab0) ![overview](https://github.com/user-attachments/assets/5b174868-2da6-4bb8-b936-0d2416970561) ![smct](https://github.com/user-attachments/assets/333a51b1-6eec-4bd0-aa5e-0892eac7fb59) ![home](https://github.com/user-attachments/assets/c851eef9-8491-4949-9472-f3844359827e) ![contact](https://github.com/user-attachments/assets/d9c192f2-e221-49ed-bc41-5dd1c3b7f1ac) ![card](https://github.com/user-attachments/assets/51e40318-69fe-4f1a-ba48-03dd20ac57e8)
 
 ---
 
