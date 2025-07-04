@@ -9,6 +9,8 @@
         margin-right: -40px;
         text-align: right;
         gap: 10px;
+        position: relative;
+        z-index: 9;
     }
 
     .menu-icon {
