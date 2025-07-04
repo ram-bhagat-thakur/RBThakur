@@ -17,7 +17,7 @@ app.get("/contact",function(req,res){
     res.render("Contact",{ pageTitle: "Contact Me", cssFiles: ["Resources/CSS/contact.css","Vendor/CSS/MQContact.css"] });
 });
 app.get("/Project",function(req,res){
-    res.render("Project",{pageTitle: "Projects", cssFiles: ["Resources/CSS/project.css"]})
+    res.render("Project",{pageTitle: "Projects", cssFiles: ["Resources/CSS/Project.css"]})
 })
 app.get("/Project-Details",function(req,res){
     res.render("Project-Details",{pageTitle: "Project Details", cssFiles: ["Resources/CSS/Project-Details.css"]})
